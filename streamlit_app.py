@@ -42,7 +42,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load dataset
-df = pd.read_csv("data/Nassau Candy Distributor.csv")
+df = pd.read_csv("Nassau Candy Distributor.csv")
 
 # Convert dates
 df["Order Date"] = pd.to_datetime(
